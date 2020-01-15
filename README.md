@@ -3,7 +3,7 @@ Regular expression for email, username, password, date, time, file, ip address, 
 
 *********-- examples --*********
 
-# Check email address:
+### Check email address:
 `RegExpCollections regExpObj = new RegExpCollections("email","jack@harper.com");
 if(regExpObj.result() == true) {
   System.out.println("Valid email address");
@@ -11,7 +11,7 @@ if(regExpObj.result() == true) {
   System.out.println("Invalid email address");
 }`
 
-# Check username:
+### Check username:
 `RegExpCollections regExpObj = new RegExpCollections("usernmae","jackharper");
 if(regExpObj.result() == true) {
   System.out.println("Valid username");
@@ -19,7 +19,7 @@ if(regExpObj.result() == true) {
   System.out.println("Invalid username");
 }`
 
-# Check photo:
+### Check photo:
 `RegExpCollections regExpObj = new RegExpCollections("file","my_photo.jpg","jpg|png|gif");
 if(regExpObj.result() == true) {
   System.out.println("Valid photo");
@@ -27,7 +27,7 @@ if(regExpObj.result() == true) {
   System.out.println("Invalid photo");
 }`
 
-# Check documents (only pdf and doc will be allowed):
+### Check documents (only pdf and doc will be allowed):
 `RegExpCollections regExpObj = new RegExpCollections("file","cv.pdf","pdf|doc");
 if(regExpObj.result() == true) {
   System.out.println("Valid document");
