@@ -1,7 +1,5 @@
-# Regular-Expression-Collections
+## Regular-Expression-Collections
 Regular expression for email, username, password, date, time, file, ip address, HTML tag, hex color value in java class
-
-*********-- examples --*********
 
 ### Check email address:
 `RegExpCollections regExpObj = new RegExpCollections("email","jack@harper.com");
@@ -34,6 +32,3 @@ if(regExpObj.result() == true) {
 } else {
   System.out.println("Invalid document");
 }`
-
-
-*********-- example ends --*********
