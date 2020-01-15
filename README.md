@@ -3,7 +3,7 @@ Regular expression for email, username, password, date, time, file, ip address, 
 
 ### Check email address:
 ```java
-RegExpCollections regExpObj = new RegExpCollections("email","jack@harper.com");
+RegExpCollections regExpObj = new RegExpCollections("email", "jack@harper.com");
 if(regExpObj.result() == true) {
   System.out.println("Valid email address");
 } else {
@@ -13,7 +13,7 @@ if(regExpObj.result() == true) {
 
 ### Check username:
 ```java
-RegExpCollections regExpObj = new RegExpCollections("usernmae","jackharper");
+RegExpCollections regExpObj = new RegExpCollections("usernmae", "jackharper");
 if(regExpObj.result() == true) {
   System.out.println("Valid username");
 } else {
@@ -23,7 +23,7 @@ if(regExpObj.result() == true) {
 
 ### Check photo:
 ```java
-RegExpCollections regExpObj = new RegExpCollections("file","my_photo.jpg","jpg|png|gif");
+RegExpCollections regExpObj = new RegExpCollections("file", "my_photo.jpg", "jpg|png|gif");
 if(regExpObj.result() == true) {
   System.out.println("Valid photo");
 } else {
@@ -33,7 +33,7 @@ if(regExpObj.result() == true) {
 
 ### Check documents (only pdf and doc will be allowed):
 ```java
-RegExpCollections regExpObj = new RegExpCollections("file","cv.pdf","pdf|doc");
+RegExpCollections regExpObj = new RegExpCollections("file", "cv.pdf", "pdf|doc");
 if(regExpObj.result() == true) {
   System.out.println("Valid document");
 } else {
