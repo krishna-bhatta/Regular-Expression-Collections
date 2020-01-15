@@ -29,7 +29,7 @@ if(regExpObj.result() == true) {
 } else {
   System.out.println("Invalid photo");
 }
-`
+```
 
 ### Check documents (only pdf and doc will be allowed):
 ```java
